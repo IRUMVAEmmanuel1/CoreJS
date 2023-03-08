@@ -1,5 +1,5 @@
-var name= "Emmanuel"
-if (name == "Emmanuel")
+var names= "Emmanuel"
+if (names == "Emmanuel")
 {
-console.log(" Hell0 " + name)
+console.log(" Hello " + names)
 }
