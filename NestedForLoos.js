@@ -1,7 +1,7 @@
-for(var i = 0; i<=2; I++)
-{
-    for(var j = 0; j<7;j++){
-        console.log(i+j)
-        console.log("Hello there a number ")
+for (var year = 2023; year<2025;year++){
+    console.log(year)
+    for(var month = 6; month<9; month++){
+        console.log("------------------",month)
     }
 }
+
