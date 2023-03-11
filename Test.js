@@ -8,3 +8,4 @@ for(var na=1; na<=12; na++)
         console.log(na,"x",times,"=",answer)
     }
 }
+console.log("Happy you build the multiplication table")
