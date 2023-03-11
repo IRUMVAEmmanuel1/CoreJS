@@ -1,4 +1,8 @@
-for(var na=1; na<=10; na++)
+for(var na=0; na<=12; na++)
 {
-    console.log(na)
+   
+    for(var times=0; times<=12;times++)
+    {
+        co
+    }
 }
