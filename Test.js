@@ -1,8 +1,10 @@
-for(var na=0; na<=12; na++)
+for(var na=1; na<=12; na++)
 {
    
     for(var times=0; times<=12;times++)
     {
-        co
+        
+        var answer=na*times;
+        console.log(na,"x",times,"=",answer)
     }
 }
