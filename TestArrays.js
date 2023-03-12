@@ -1,6 +1,12 @@
 function listArraysItems(arr){
     for(var i=0; i<arr.length; i++){
-        console.log(i, arr[i])
+        if(arr[i] == "red"){
+            console.log(i*100,"tomato")
+        }
+        else{
+            console.log(i*100,arr[i])
+        }
+     
     }
 }
 
