@@ -1,8 +1,6 @@
-letterFinder(word,match)
+function letterFinder(word, match)
 {
-
-
-    for(var i; i<word.length; i++){
+    for(var i=0; i<word.length; i++){
        if(word[i] == match){
         console.log('Found the match',match,"at",i)
        } 
@@ -11,4 +9,4 @@ letterFinder(word,match)
        }
     }
 }
-letterFinder("test","t")
+letterFinder("test","t");
