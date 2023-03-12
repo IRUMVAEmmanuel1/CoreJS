@@ -1,8 +1,6 @@
-function AddTwoNums(){
-    var a,b,sum;
-    a=23
-    b=43
+function AddTwoNums(a,b){
+    
     sum=a+b
     console.log(" Sum of",a,"and",b,"is",sum)
 }
-AddTwoNums()
+AddTwoNums(2,6)
