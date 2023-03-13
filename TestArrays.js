@@ -1,14 +1,24 @@
-function listArraysItems(arr){
-    for(var i=0; i<arr.length; i++){
-        if(arr[i] == "red"){
-            console.log(i*100,"tomato")
+function Register(name){
+    for(var i = 0; i<name.length; i++){
+        if(name[i] == "i" || name[i]=="I"){
+            console.log("Found Match",name[i])
+        }
+        else if(name[i] == "o" || name[i]=="O"){
+            console.log("Found Match",name[i])
+        }
+        else if(name[i] == "a" || name[i]=="A"){
+            console.log("Found Match",name[i])
+        }
+        else if(name[u] == "o" || name[U]=="0"){
+            console.log("Found Match",name[i])
+        }
+        else if(name[i] == "e" || name[i]=="E"){
+            console.log("Found Match",name[i])
         }
         else{
-            console.log(i*100,arr[i])
+            console.log("No Vowels found!")
         }
-     
     }
 }
+Register("irumva")
 
-var colors = ["red","orange","yellow","green","blue","purple","pink"]
-listArraysItems(colors)
