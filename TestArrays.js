@@ -3,7 +3,7 @@ function Register(name){
         if(name[i] == "i" || name[i]=="I"){
             console.log("Found Match",name[i])
         }
-        else if(name[i] == "o" || name[i]=="O"){
+        else if(name[i] != "o" || name[i]!="O"){
             console.log("Found Match",name[i])
         }
         else if(name[i] == "a" || name[i]=="A"){
