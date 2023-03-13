@@ -9,16 +9,18 @@ function Register(name){
         else if(name[i] == "a" || name[i]=="A"){
             console.log("Found Match",name[i])
         }
-        else if(name[u] == "o" || name[U]=="0"){
+        else if(name[i] == "u" || name[i]=="U"){
             console.log("Found Match",name[i])
         }
         else if(name[i] == "e" || name[i]=="E"){
             console.log("Found Match",name[i])
         }
+        
         else{
             console.log("No Vowels found!")
         }
     }
 }
-Register("irumva")
+
+Register("emmanuel");
 
