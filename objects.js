@@ -1,0 +1,1 @@
+var user = {}; //create an object
