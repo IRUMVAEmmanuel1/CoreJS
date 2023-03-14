@@ -27,3 +27,16 @@ house2.windows = 20;
 console.log(house2); // {rooms: 3, color: "brown", priceUSD: 10000}
 house.windows = 10;
 console.log(house); // {rooms: 3, color: "brown", priceUSD: 10000, windows: 10}
+
+
+
+
+var arrOfKeys = ['speed', 'altitude', 'color'];
+var drone = {
+    speed: 100,
+    altitude: 200,
+    color: "red"
+}
+for (var i = 0; i < arrOfKeys.length; i++) {
+    console.log(drone[arrOfKeys[i]])
+}
