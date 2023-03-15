@@ -9,7 +9,7 @@ clothers.pop();
 clothers.push("shirt")
 console.log(clothers[2]);
 
-var favcar = [];
+var favcar = {};
 favcar.color="red"
 favcar.covertible = true
 
