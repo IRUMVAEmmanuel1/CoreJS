@@ -18,4 +18,7 @@ function arrayInObject(one,two,three){
     arr.push(one);
     arr.push(two)
     arr.push(three)
-}
+    console.log(arr)
+} 
+arrayInObject("apple","pear","banana")
+
