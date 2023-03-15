@@ -18,7 +18,8 @@ function arrayInObject(one,two,three){
     arr.push(one);
     arr.push(two)
     arr.push(three)
-    console.log(arr)
+    return arr
 } 
-arrayInObject("apple","pear","banana")
+var simplearr = arrayInObject("apple","pear","banana")
+console.log(simplearr);
 
