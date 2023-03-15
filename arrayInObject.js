@@ -9,4 +9,13 @@ fruits.push("pear")
 
 // removing last option
 fruits.pop();
-console.log(fruits)
+// console.log(fruits)
+
+// functions that takees all its arguments and pushes them into an array
+
+function arrayInObject(one,two,three){
+    var arr=[];
+    arr.push(one);
+    arr.push(two)
+    arr.push(three)
+}
