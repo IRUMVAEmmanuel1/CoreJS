@@ -1,14 +1,15 @@
 
 function addTwoNums(a,b){
    try {
-    if(typeof(a)!= number){
+    if(typeof(a)!= "number"){
         console.log("the first argument is not a number")
     }
-    else if(typeof(b) != number){
+    else if(typeof(b) != "number"){
         console.log("b is not a number")
     }
+    else{console.log(a+b)}
 
-    console.log(a+b)
+    
    } catch (err) {
     console.log("Can't calculate Sum")
    }
