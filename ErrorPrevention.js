@@ -5,6 +5,9 @@ function addTwoNums(a,b){
             console.log("the first argument is not a number")
         }
         
+        else{console.log(a+b)}
+    
+        
        } catch (err) {
         console.log("Can't calculate Sum")
        }
