@@ -4,8 +4,10 @@ function addTwoNums(a,b){
         if(typeof(a)!= "number"){
             console.log("the first argument is not a number")
         }
-        
-        else{console.log(a+b)}
+        else if(typeof(b) != "number"){
+            throw new ReferenceError("b is not a number")
+        }
+      
     
         
        } catch (err) {
