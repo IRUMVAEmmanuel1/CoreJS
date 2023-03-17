@@ -7,7 +7,7 @@ function addTwoNums(a,b){
         else if(typeof(b) != "number"){
             throw new ReferenceError("b is not a number")
         }
-      
+        else{console.log(a+b)}
     
         
        } catch (err) {
