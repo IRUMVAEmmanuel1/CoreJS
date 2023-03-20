@@ -17,9 +17,14 @@
 
 var totalprice={
     shoes:100,
-    tax=1.2,
+    tax:1.2,
     totalpay: function(){
+        var calculation = totalprice.shoes*totalprice.tax;
+        console.log("Total Price", calculation)
+        
 
     }
 
 }
+
+totalprice.totalpay()
