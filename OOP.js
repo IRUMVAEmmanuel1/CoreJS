@@ -19,3 +19,14 @@ var purchase2 = {
     }
 }
 purchase2.totalprice();
+
+var purchase3 = {
+    itemName:'Mango',
+    itemPrice: 40,
+    tax: 1.3,
+    totalprice: function(){
+        var totalpay = this.itemPrice * this.tax;
+        console.log("Total Price of ",this.itemName,"is",totalpay)
+    }
+}
+purchase3.totalprice();
