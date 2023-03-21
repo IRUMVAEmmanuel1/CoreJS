@@ -1,32 +1,29 @@
-var purchase1 = {
-    itemName:'Banana',
-    itemPrice: 120,
+var items = [
+  {
+    itemName: "Banana",
+    itemPrice: 100,
     tax: 1.2,
-    totalprice: function(){
-        var totalpay = this.itemPrice * this.tax;
-        console.log("Total Price of ",this.itemName,"is",totalpay)
-    }
-}
-purchase1.totalprice();
+  },
+  {
+    itemName: "Mango",
+    itemPrice: 100,
+    discount: 1.2,
+  },
+  {
+    itemName: "Banana",
+    itemPrice: 100,
+    discount: 1.2,
+  },
+  {
+    itemName: "Banana",
+    itemPrice: 100,
+    discount: 1.2,
+  },
+];
 
-var purchase2 = {
-    itemName:'Orange',
-    itemPrice: 140,
-    tax: 1.2,
-    totalprice: function(){
-        var totalpay = this.itemPrice * this.tax;
-        console.log("Total Price of ",this.itemName,"is",totalpay)
-    }
-}
-purchase2.totalprice();
+let array = [];
 
-var purchase3 = {
-    itemName:'Mango',
-    itemPrice: 40,
-    tax: 1.3,
-    totalprice: function(){
-        var totalpay = this.itemPrice * this.tax;
-        console.log("Total Price of ",this.itemName,"is",totalpay)
-    }
+for (let item of items) {
+  array.push({ ...item, totaPrice: item.itemPrice * item.discount });
 }
-purchase3.totalprice();
+console.log(array);
