@@ -10,7 +10,7 @@ let arrayitem = [
         discount: 1.5,
     },
     {
-        itemName: "Banana",
+        itemName: "Apple",
         ItemPrice: 2000,
         discount: 2.3,
     },
@@ -33,7 +33,7 @@ let arrayitem = [
 
 let array =[];
 
-for( let item of arrayitem){
-    array.push({...arrayitem, totalPrice: item.ItemPrice*item.discount})
+for(let item of arrayitem){
+    array.push({ ...item, totalPrice: item.ItemPrice*item.discount})
 }
 console.log(array);
