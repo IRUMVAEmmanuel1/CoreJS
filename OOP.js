@@ -33,6 +33,7 @@ let arrayitem = [
 
 let array =[];
 
-for( let item in arrayitem){
-    
+for( let item of arrayitem){
+    array.push({...arrayitem, totalPrice: item.ItemPrice*item.discount})
 }
+console.log(array);
