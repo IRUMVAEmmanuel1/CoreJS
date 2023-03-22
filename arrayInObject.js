@@ -17,3 +17,4 @@ function arrayInObject(one,two,three){
     arr.push(three)
     return arr
 } 
+var simplearr = arrayInObject("apple","pear","banana")
