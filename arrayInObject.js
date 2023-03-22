@@ -13,3 +13,5 @@ fruits.pop();
 function arrayInObject(one,two,three){
     var arr=[];
     arr.push(one);
+    arr.push(two)
+    arr.push(three)
