@@ -15,3 +15,5 @@ function arrayInObject(one,two,three){
     arr.push(one);
     arr.push(two)
     arr.push(three)
+    return arr
+} 
