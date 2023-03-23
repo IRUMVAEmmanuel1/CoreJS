@@ -27,5 +27,14 @@ class Animals {
 }
 
 class cat extends Animals{
+    constructor(sound='purr', canJumpHigh = true, color, energy) {
+        super(color,energy);
+        this.sound = sound;
+        this.canFly =canFly;
+    }
+
+    makeSound(){
+        console.log(this.sound);
+    }
 
 }
