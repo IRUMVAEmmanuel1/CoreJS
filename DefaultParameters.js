@@ -14,3 +14,5 @@ class NoDefaultParams {
     return "The value of bool1 is incorrect"
   }
 }
+var fail = new NoDefaultParams(1,2,3,false);
+fail.calculate(); // 'The value of bool1 is incorrect'
