@@ -1,18 +1,12 @@
-function arraySwapper(arr, value1, value2) {
-    // Save the value at the first index in a variable
-    let hold = arr[value1];
-  
-    // Set the value at the first index to the value at the second index
-    arr[value1] = arr[value2];
-  
-    // Set the value at the second index to the saved value
-    arr[value2] = hold;
-  
-    // Return the modified array
-    return arr;
-  }
+function arraySwapper(array, indexOf1, indexOf2) {
+	let hold = array[indexOf1];
 
-  let arr = [1, 2, 3, 4,5];
-console.log(arraySwapper(arr, 1, 2)); // Output: [1, 3, 2, 4]
+	array[indexOf1] = array[indexOf2];
 
+	array[indexOf2] = hold;
 
+	return array;
+}
+
+let array = [1, 2, 3, 4];
+console.log(arraySwapper(array, 0, 3));

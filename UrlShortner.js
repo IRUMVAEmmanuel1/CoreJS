@@ -43,4 +43,4 @@ const longUrl = 'https://www.example.com/very/long/url/that/we/want/to/shorten';
 const shortUrl = shortenUrl(longUrl);
 console.log(shortUrl); // e.g. "abc123"
 
-redirect(shortUrl); // This will redirect the user to the original long URL
+// redirect(shortUrl); // This will redirect the user to the original long URL
