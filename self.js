@@ -33,3 +33,8 @@ var cart = [
 		discount: 2.3,
 	},
 ];
+
+let itemHold = [];
+for(item of cart) {
+	itemHold.push(...cart(item, cart))
+}
