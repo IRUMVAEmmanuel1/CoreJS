@@ -36,5 +36,5 @@ var cart = [
 
 let itemHold = [];
 for(item of cart) {
-	itemHold.push(...cart(item, cart))
+	itemHold.push({...item, totalPrice: item.price * item.discount})
 }
