@@ -38,3 +38,4 @@ let itemHold = [];
 for(item of cart) {
 	itemHold.push({...item, totalPrice: item.price * item.discount})
 }
+console.log(itemHold)
