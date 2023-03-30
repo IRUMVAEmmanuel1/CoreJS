@@ -1,5 +1,5 @@
 function vowels(str){
-    const myname = str.math(/[aeiou]/gi).length
+    const myname = str.match(/[aeiou]/gi).length
     return myname
 }
 
