@@ -1,16 +1,15 @@
 const car = {
-    engine:true
-}
+	engine: true,
+};
 
-const sportsCar = object.create(car);
+const sportsCar = Object.create(car);
 sportsCar.speed = "fast";
 console.log("The sportCar object: ", sportsCar);
 
-for(prop in sportsCar) {
-    console.log(prop);
-
+for (prop in sportsCar) {
+	console.log(prop);
 }
 
-for ( prop of object.key(sportsCar)){
-    console.log(prop, ":", sportsCar[prop])
+for (prop of Object.key(sportsCar)) {
+	console.log(prop, ":", sportsCar[prop]);
 }
