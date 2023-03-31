@@ -26,4 +26,4 @@ console.log(car1.speed, car2.speed)
 
 
 
-['apples'] 'not' ['apples','pears']
+// ['apples'] 'not' ['apples','pears']
