@@ -5,4 +5,4 @@ h2.setAttribute('id', 'sub-heading')
 
 h2.setAttribute('class', 'secondary')
 
-document.body
+document.body.appendChild(h2)
