@@ -16,3 +16,4 @@ function handleClicks() {
 			h1.innerText = arr[0];
 	}
 }
+h1.addEventListener('click', handleClicks);
