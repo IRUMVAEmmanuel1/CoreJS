@@ -32,4 +32,5 @@ const dishes = [
     return outputText;
   }
   
+  console.log('Prices with 20% tax:');
  
