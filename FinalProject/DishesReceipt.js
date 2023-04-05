@@ -39,4 +39,4 @@ function calculatePrice(inclTax) {
 console.log("Prices with 20% tax:");
 console.log(calculatePrice(true));
 console.log("Prices without tax:");
-
+console.log(calculatePrice(false));
