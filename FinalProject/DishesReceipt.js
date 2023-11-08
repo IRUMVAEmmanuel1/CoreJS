@@ -34,7 +34,6 @@ function calculatePrice(inclTax) {
 	}
 	return outputText;
 }
-
 console.log("Prices with 20% tax:");
 console.log(calculatePrice(true));
 console.log("Prices without tax:");
