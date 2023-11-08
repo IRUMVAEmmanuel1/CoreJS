@@ -16,7 +16,6 @@ const dishes = [
 		price: 6.45,
 	},
 ];
-
 function calculatePrice(inclTax) {
 	let outputText = "";
 	for (let dish of dishes) {
