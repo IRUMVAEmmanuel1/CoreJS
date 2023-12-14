@@ -5,3 +5,4 @@ function vowels(str){
 const user = prompt("Enter Your name")
 const Finalvowels = vowels(user)
 console.log(Finalvowels)
+
